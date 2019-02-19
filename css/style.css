@@ -1,0 +1,214 @@
+a:hover {
+	text-decoration: none;
+	color: brown;
+}
+
+body {
+	min-height: 400px;
+	background-color: blanchedalmond;
+}
+
+nav .container span {
+	border: 3px solid #ffffff8a;
+	border-radius: 50%;
+	padding: 10px;
+	animation-name: logo;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: 3;
+}
+
+@keyframes logo {
+	0% {
+		right: 100%;
+	}
+
+	25% {
+		right: 75%;
+	}
+
+	50% {
+		right: 50%;
+	}
+
+	75% {
+		right: 25%;
+	}
+
+	100% {
+		right: 0%;
+	}
+}
+
+nav .container ul li a {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+nav .container .row {
+	background: #333;
+	height: 2em;
+	border-radius: 20%;
+}
+
+.nav-top .container .row .top {
+	background: #333;
+	padding-bottom: .3em;
+	width: 25%;
+	height: 30px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	color: rgb(209, 201, 201);
+	text-align: center;
+	font-size: .9em;
+}
+
+.item .img1 {
+	background: url('../images/slider_img.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 300px;
+}
+
+.img4 {
+	background: url('../images/img4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 300px;
+}
+
+.item .img1 .txt {
+	color: lavenderblush;
+	font-weight: bold;
+	position: absolute;
+	top: 1.7em;
+	left: 1em;
+	text-shadow: 4px 3px 1px brown;
+	font-size: 2em;
+}
+
+.owl-dots {
+	display: none;
+}
+
+#container img {
+	width: 15%;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	padding: 5px 5px;
+	margin: 5px;
+	position: relative;
+	left: 40%;
+}
+
+#container p {
+	margin: 0px 10px 50px 10px;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.container h1 {
+	text-shadow: 2px 2px 1px red;
+}
+
+.container .field .row .skills {
+	margin-top: 10px;
+	text-align: left;
+	color: green;
+	font-size: 1.5rem;
+}
+
+.container .field {
+	margin-bottom: 40px;
+}
+
+.container .project {
+	margin-bottom: 90px;
+}
+
+.col-4 {
+	text-align: center;
+}
+
+.col-4 .site {
+	border-radius: 25px;
+	border: 1px solid gray;
+	padding: 50px;
+	margin: 15px;
+	box-shadow: 3px 5px 1px grey;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	color: rgb(196, 187, 196);
+	margin-bottom: 0;
+	padding-bottom:0; 
+}
+
+footer .col-6 {
+	padding-top: 12px;
+}
+
+footer .row p {
+	text-align: left;
+}
+
+footer .social ul {
+	list-style: none;
+	text-align: right;
+}
+
+footer .social ul li {
+	display: inline-block;
+	font-size: 1.5rem;
+	margin: 3px;
+}
+
+footer .social ul li a {
+	color: white;
+}
+
+footer .social ul li a:hover {
+	color:rgb(255, 174, 0);
+}
+
+
+/* contact */
+
+
+form{
+	margin: 20px auto;
+	width:30%;
+	padding: 50px;
+	border-radius: 19px;
+	background:rgb(161, 187, 112);
+  }
+  form h1{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 15px;
+	color: black;
+	font-weight: bold;
+  }
+  label{
+	display: block;
+	font-weight: 600;
+	padding: 20px 0 1px 0;
+	margin: 0;
+  }
+  .form-control{
+	border-radius: 15px;
+	padding: 5px 18px;
+  }
+  .text-center{
+	padding-top: 15px;
+  }
+  .btn{
+	margin: 10px 0;
+  }
+  

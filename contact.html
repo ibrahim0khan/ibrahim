@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Welcome to Khan's Portfolio</title>
+	<link rel="shortcut icon" type="image/png" href="images/icon-3.ico">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="nav-top sticky-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 top">
+					<i class="fas fa-phone"></i><span> &nbsp;+8801772812413</span>
+				</div>
+				<div class="offset-6 col-xs-3 col-sm-3 col-md-3 col-lg-3 top"><i class="fas fa-envelope"></i><span>
+						&nbsp;ibrahim012khan@gmail.com</span></div>
+			</div>
+		</div>
+		<nav class="bg-dark navbar">
+			<div class="container">
+				<span class="navbar-brand text-success">Ibrahim Khan</span>
+				<ul class="nav justify-content-end">
+					<li class="nav-item">
+						<a class="nav-link text-warning contact" href="#">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+
+	<div class="container">
+		<form action="">
+			<h1>Registration Form</h1>
+			<label for="usr">Name:</label>
+			<input type="text" id="usr" placeholder="Enter Your Name" class="form-control" onmouseout="return UserName()">
+			<span class="text-danger font-weight-bold" id="usr_wrong"></span>
+
+			<label for="phone">Phone:</label>
+			<input type="text" id="phone" placeholder="Enter Your Phone no" class="form-control" onmouseout="return phoneno()">
+			<span class="text-danger font-weight-bold" id="phone_wrong"></span>
+
+
+			<label for="email">Email:</label>
+			<input type="text" id="email" placeholder="Enter Your Email" class="form-control" onmouseout="return emailinfo()">
+			<span class="text-danger font-weight-bold" id="email_wrong"></span>
+
+			<label for="pass">Password:</label>
+			<input type="text" id="pass" placeholder="Enter Your Password" class="form-control" onmouseout="return password()">
+			<span class="text-danger font-weight-bold" id="pass_wrong"></span>
+
+			<label for="re-pass">Re-Password:</label>
+			<input type="text" id="re_pass" placeholder="Enter Your Password" class="form-control" onmouseout="return re_password()">
+			<span class="text-danger font-weight-bold" id="pass_notMatch"></span>
+
+			<input type="submit" class="btn btn-danger my-3 btn-block">
+
+		</form>
+	</div>
+
+
+
+
+
+	<!--Footer-->
+
+	<footer class="bg-dark">
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<p>&copy; Copyright by <a href="https://www.facebook.com/ibrahim.ik605">Ibrahim Khan</a></p>
+				</div>
+				<div class="col-6">
+					<div class="social">
+						<ul>
+							<li><a href="https://www.facebook.com/ibrahim.ik605"><i class="fab fa-facebook"></i></a></li>
+							<li><a href="https://www.facebook.com/ibrahim.ik605"><i class="fab fa-twitter-square"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/ibrahim-khan-81034517a/"><i class="fab fa-linkedin"></i></a></li>
+							<li><a href="https://www.facebook.com/ibrahim.ik605"><i class="fab fa-youtube"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/Contact_Form_Validator.js"></script>
+
+</body>
+
+</html>

@@ -6,6 +6,7 @@ a:hover {
 body {
 	min-height: 400px;
 	background-color: blanchedalmond;
+	margin: 0 auto;
 }
 
 nav .container span {
@@ -62,9 +63,11 @@ nav .container .row {
 	border-top-right-radius: 50px;
 	color: rgb(209, 201, 201);
 	text-align: center;
-	font-size: .9em;
+	font-size: .9rem;
 }
-
+.nav-top .container .row .top span a{
+	color: rgb(168, 161, 161);
+}
 .item .img1 {
 	background: url('../images/slider_img.jpg');
 	background-size: cover;
@@ -130,11 +133,9 @@ nav .container .row {
 	margin-bottom: 90px;
 }
 
-.col-4 {
-	text-align: center;
-}
 
-.col-4 .site {
+
+.text-center .site {
 	border-radius: 25px;
 	border: 1px solid gray;
 	padding: 50px;
@@ -150,22 +151,25 @@ footer {
 	padding-bottom:0; 
 }
 
-footer .col-6 {
-	padding-top: 12px;
-}
-
 footer .row p {
 	text-align: left;
+	position: absolute;
+	top:20px;
 }
-
+footer .social{
+	height: 35px;
+}
 footer .social ul {
-	list-style: none;
-	text-align: right;
+    list-style: none;
+    position: absolute;
+    height: 30px;
+    top: 10px;
+    right: 0;
 }
 
 footer .social ul li {
 	display: inline-block;
-	font-size: 1.5rem;
+	font-size: 1.5em;
 	margin: 3px;
 }
 

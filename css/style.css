@@ -187,13 +187,13 @@ footer .social ul li a:hover {
 
 form{
 	margin: 20px auto;
-	width:30%;
-	padding: 50px;
-	border-radius: 19px;
+	width:50%;
+	padding: 3rem;
+	border-radius: 1.2rem;
 	background:rgb(161, 187, 112);
   }
   form h1{
-	font-size: 30px;
+	font-size: 2rem;
 	text-align: center;
 	margin-bottom: 15px;
 	color: black;
@@ -215,4 +215,30 @@ form{
   .btn{
 	margin: 10px 0;
   }
-  
+	
+	
+
+@media only screen and (max-width: 500px) {
+    form {
+        width:95%;
+		}
+		form h1{
+			font-size: 25px;
+		}
+		.nav-top .container .row .top{
+			padding: 5px;
+		}
+		.nav-top .container .row .top span a{
+			font-size: .6rem;
+		}
+		footer .container .row .col-6 p{
+			font-size: .7rem;
+		}
+}
+
+
+@media only screen and (max-width: 990px) {
+	form{
+		width:80%;
+	}
+}
